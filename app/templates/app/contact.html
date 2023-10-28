@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    Фирма: Serafim 01<br />
+    Адрес: ХМАО-Югра, Сургут, Ленина, 1<br />
+    <abbr title="Телефон">Телефон:</abbr>
+    8-800-555-35-35
+</address>
+
+<address>
+    <strong>Поддержка:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Маркетинг:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+{% endblock %}

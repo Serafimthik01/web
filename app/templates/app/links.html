@@ -1,0 +1,27 @@
+
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+
+{% load static %}
+
+<section>
+    <h3>Официальные сайты</h3>
+    <ul>
+        <li><a href="https://www.rockstargames.com/">Rockstar</a> - Официальная страница Rockstar.</li>
+        <li><a href="https://www.youtube.com/channel/UC6VcWc1rAoWdBCM0JxrRQ3A/">Youtube</a> - Ютуб канал Rockstar.</li>
+        <li><a href="https://ru.wikipedia.org/wiki/Rockstar_Games">Wikipedia</a> - Сайт Википедии Rockstar.</li>
+    </ul>
+</section>
+<section>
+    <h3>Игры Rockstar Games</h3>
+    <ul>
+        <li><a href="https://www.rockstargames.com/games/">Rockstar Games</a> - Игры Rockstar.</li>
+        <li><a href="https://www.rockstargames.com/gta-v/">GTA 5</a> - Сайт игры Grand Theft Auto 5.</li>
+        <li><a href="https://www.rockstargames.com/games/reddeadredemption2/">RDR 2</a> - Сайт игры Red Dead Redemption 2.</li>
+    </ul>
+</section>
+
+{% endblock %}
